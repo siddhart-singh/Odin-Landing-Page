@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Lora:wght@400;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f6ecf3;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar{
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    padding: 8px ;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo p{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 0.95; 
+    font-size: 24px;
+    font-stretch: 170%;	
+
+}
+
+.logo p:nth-of-type(1){
+    color: #442a8e;
+    font-size: 57px;
+}
+.logo p:nth-of-type(2){
+    font-size: 24px;
+    color: #b03e3a;
+}
+.logo p:nth-of-type(2) span{
+    color: #f28119;
+    font-size: 24px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0;
+
+    flex-grow: 1;
+}
+
+.header img{
+    width: 60%;
+    border-radius: 25px;
+    
+}
+
+
+.dishes{
+    padding: 128px 32px;
+    background-color: #b03e3a;
+    color: #f6ecf3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 64px;
+    
+}
+
+.dishes h1{
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+
+
+.dish h2{
+    padding: 8px;
+    font-size: 32px;
+    font-family: 'Assistant', sans-serif;
+}
+
+.testimonials{
+    padding: 64px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex: 1 0 0;
+    gap: 64px;
+    background-image: url(./images/bobby-posing.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.testimonials div{
+    flex: 1 0 40%;
+    background-color: #f6ecf3e2;
+    padding: 16px 32px;
+    align-self: stretch;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 8px;
+}
+
+.user-image{
+    align-self: flex-start;
+    background-color: #452a8e60;
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.user-content{
+    flex: 1;
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+    color: #442a8e;
+}
+
+.user-name{
+    font-size: 18px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 800;
+    color: #442a8e;
+}

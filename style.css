@@ -107,16 +107,17 @@ body{
     width: 100%;
     flex: 1 0 0;
     gap: 64px;
-    background-image: url(./images/bobby-posing.jpg);
+    background-image: url(./images/bobby-posing-2.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
+    background-position-x: -10px;
     flex-wrap: wrap;
 }
 
 .testimonials div{
     flex: 1 0 40%;
-    background-color: #f6ecf3e2;
+    background-color: #f6ecf3d7;
     padding: 16px 32px;
     align-self: stretch;
 }
@@ -150,4 +151,88 @@ body{
     font-family: 'Assistant', sans-serif;
     font-weight: 800;
     color: #442a8e;
+}
+
+.cookbook{
+    padding: 128px 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 700;
+
+}
+
+.cookbook p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    word-spacing: -1px;
+    letter-spacing: -0.5px;
+    font-family: 'Assistant', sans-serif;
+    margin-bottom: -8px;
+}
+
+.cookbook em{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-color: #f28119;
+}
+
+.action-link{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f28119;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 0px 5px #b03e3a,
+                0px 0px 5px 5px #442a8e;
+    
+}
+
+.footer{
+    padding: 32px 64px 0 64px;
+    background-color: #442a8e;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer h2{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #f6ecf3;
+}
+
+.caution{
+    color: #f6ecf3;
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif;
+}
+
+
+.closing-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #f6ecf3;
+}
+
+.closing-footer img{
+    width: 35px;
+    height: 35px;
+    box-shadow: 0px 0px 0px 5px #f6ecf3;
+    border-radius: 50%;
 }
